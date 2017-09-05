@@ -5,7 +5,7 @@ Wiki API Search
 
 ## Requirements 
 
-'npm install -g @angular/cli'
+`npm install -g @angular/cli`
 
 ## Development server
 
