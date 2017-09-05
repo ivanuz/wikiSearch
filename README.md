@@ -1,6 +1,11 @@
 # WikiSearch
 
 Wiki API Search
+Поиск статей по ключевому слову.
+
+## Requirements 
+
+'npm install -g @angular/cli'
 
 ## Development server
 
