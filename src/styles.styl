@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+* {
+  box-sizing border-box
+  padding 0
+  margin 0
+}
+body {
+  padding 0;
+  margin 0;
+  min-width 320px
+}
+
+.container {
+  max-width 1280px
+  width 100%
+  margin 0 auto
+  padding 0 15px
+}
+
+.search
+  &__wrap
+    margin-top 30px
+  &__header
+    margin-bottom 15px
+  &__results
+    padding-bottom 30px
+    a
+      color #333
+      &:hover
+        text-decoration none
+  &__form
+    max-width 600px
+    margin 0 auto
+    display flex
+    flex-wrap nowrap
+    align-items center
+    &__input
+      flex 1 1 auto
+      margin-right 10px

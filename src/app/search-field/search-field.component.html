@@ -1,0 +1,17 @@
+<div class="search__header">
+    <div class="search__form">
+        <md-form-field class="search__form__input">
+            <input mdInput #searchInput searchInput.value='JavaScript' value="JavaScript" placeholder="Поисковый запрос">
+        </md-form-field>
+        <button md-raised-button color="primary" (click)="doSearch(searchInput.value)">Найти</button>
+    </div>
+</div>
+
+
+<div class="search__results">
+    <md-card *ngFor="let page of result">
+            <md-card-title><a href="https://en.wikipedia.org/wiki/{{page?.title}}">{{ page?.title }}</a></md-card-title>
+            <md-card-content>{{page?.extract}}</md-card-content>
+    </md-card>
+
+</div>
